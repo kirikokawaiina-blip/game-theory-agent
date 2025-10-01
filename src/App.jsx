@@ -76,11 +76,7 @@ function App() {
 
   return (
     <ErrorBoundary showDetails={true}>
-      <div className={`min-h-screen ${
-        theme === 'dark' 
-          ? 'dark bg-slate-900' 
-          : 'bg-slate-50'
-      }`}>
+<div className="min-h-screen">
         <div className="container mx-auto p-4 space-y-6">
           {/* Header */}
           <div className="flex items-center justify-between">
