@@ -76,7 +76,7 @@ function App() {
 
   return (
     <ErrorBoundary showDetails={true}>
-<div className="min-h-screen">
+<div className="min-h-screen bg-background">
         <div className="container mx-auto p-4 space-y-6">
           {/* Header */}
           <div className="flex items-center justify-between">
